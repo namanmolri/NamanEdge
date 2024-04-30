@@ -7,12 +7,25 @@ packages:
   gitUrl: https://github.com/namanmolri/NamanEdgeProject
   gitUsername: namanmolri
   gitBranch: main
+- name: NamanEdgeSourceControl
+  gitServerName: Naman_SAG_edge
+  gitUrl: https://github.com/namanmolri
+  gitUsername: namanmolri
+  gitBranch: master
 services:
 - serviceName: project.namanedge.integrations:Github_test_DAFS
   packages:
   - name: NamanEdgeProject
     version: "1.0"
 - serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.804
+- serviceName: project.namanedge.integrations:random
+  packages:
+  - name: NamanEdgeProject
+    version: "1.0"
+- serviceName: pub.math:randomDouble
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
