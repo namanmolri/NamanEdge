@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: NamanEdgeProject
+  gitServerName: Naman_SAG_edge
+  gitUrl: https://github.com/namanmolri/NamanEdgeProject
+  gitUsername: namanmolri
+  gitBranch: main
