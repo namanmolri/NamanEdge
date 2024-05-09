@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="NamanEdgeSourceControl" SERVICE="githubTest1:gitgub_test_1">
+<INVOKE NAME="NamanEdgeSourceControl" SERVICE="test_github:github_flow_test">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

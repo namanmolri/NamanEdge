@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<FLOW VERSION="1.0" CLEANUP="false">
+<FLOW VERSION="3.0" CLEANUP="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
 
-<INVOKE NAME="NamanEdgeSourceControl" SERVICE="test_github:github_flow_test">
+<INVOKE NAME="NamanEdgeSourceControl" SERVICE="githubTest1:gitgub_test_1">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">naman.molri</value>
-    <value name="lastModifiedDate">1715262373997</value>
+    <value name="lastModifiedDate">1715262851902</value>
     <value name="displayName">githubSourceControl_test</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -59,9 +59,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">githubTest1:gitgub_test_1</value>
-          <value name="serviceName">githubTest1:gitgub_test_1</value>
-          <value name="displayName">gitgub_test_1</value>
+          <value name="description">test_github:github_flow_test</value>
+          <value name="serviceName">test_github:github_flow_test</value>
+          <value name="displayName">github_flow_test</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>

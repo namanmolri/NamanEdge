@@ -11,7 +11,7 @@ packages:
   gitServerName: Naman_SAG_edge
   gitUrl: https://github.com/namanmolri
   gitUsername: namanmolri
-  gitBranch: main
+  gitBranch: master
 services:
 - serviceName: project.namanedge.integrations:Github_test_DAFS
   packages:
@@ -36,6 +36,10 @@ services:
   - name: NamanEdgeSourceControl
     version: "1.0"
 - serviceName: test_github:github_flow_test
+  packages:
+  - name: NamanEdgeSourceControl
+    version: "1.0"
+- serviceName: githubTest1:gitgub_test_1
   packages:
   - name: NamanEdgeSourceControl
     version: "1.0"
