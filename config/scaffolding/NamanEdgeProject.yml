@@ -11,7 +11,7 @@ packages:
   gitServerName: Naman_SAG_edge
   gitUrl: https://github.com/namanmolri
   gitUsername: namanmolri
-  gitBranch: master
+  gitBranch: main
 services:
 - serviceName: project.namanedge.integrations:Github_test_DAFS
   packages:
@@ -29,3 +29,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.namanedge.integrations:githubSourceControl_test
+  packages:
+  - name: NamanEdgeProject
+    version: "1.0"
+  - name: NamanEdgeSourceControl
+    version: "1.0"
+- serviceName: test_github:github_flow_test
+  packages:
+  - name: NamanEdgeSourceControl
+    version: "1.0"
